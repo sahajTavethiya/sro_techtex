@@ -551,3 +551,63 @@ h6,
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+
+/* Header Design */
+
+.navbar-collapse ul,
+.social-icon ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-collapse ul li,
+.social-icon ul li {
+    list-style: none;
+}
+
+.navbar-collapse ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: jost;
+    font-size: 14px;
+    font-weight: 600;
+    color: #939ca1;
+    padding: 30px 20px;
+    display: block;
+    transition: all 0.5s;
+}
+
+.social-icon ul li a {
+    color: #939ca1;
+    padding: 30px 10px;
+    display: block;
+}
+
+.card-title-border, .card-sub-title-border {
+    padding: 10px 0;
+    border-bottom: 3px solid #B78D65;
+    border-top: 3px solid #B78D65;
+}
+
+.card-sub-title-border {
+    border-top: none !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.card-box-shadow {
+    box-shadow: 0px 0px 10px 0px #B78D65;
+    border-radius: 8px;
+}
+
+.card-sub-title {
+    border-left: 10px solid #B78D65;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
