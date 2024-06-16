@@ -3080,16 +3080,28 @@ fieldset:disabled .btn {
     opacity: .65
 }
 
-.btn-primary {
+/* .btn-primary {
     color: #000;
     background-color: #B78D65;
     border-color: #B78D65
+} */
+
+.btn-primary {
+    color: #000;
+    background-color: #806449;
+    border-color: #806449
 }
 
-.btn-primary:hover {
+/* .btn-primary:hover {
     color: #000;
     background-color: #c29e7c;
     border-color: #be9874
+} */
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #806449;
+    border-color: #806449
 }
 
 .btn-check:focus+.btn-primary,
@@ -8283,8 +8295,11 @@ fieldset:disabled .btn {
     word-break: break-word !important
 }
 
-.text-primary {
+/* .text-primary {
     color: #B78D65 !important
+} */
+.text-primary {
+    color: #806449 !important
 }
 
 .text-secondary {
